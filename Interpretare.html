@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>INTERPRETARE</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+   background-image: url("stele2.jpg"); 
+}
+
+/* Style the header */
+.header {
+  background-image: url("luni3.jpg");
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-family: Charter BT;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 500px; 
+}
+
+.column.side {
+  width: 20%;
+  background-image: url("stele2.jpg");
+}
+
+.column.middle {
+  width: 60%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  background-image: url("stele2.jpg");
+}
+
+p.ex1 {
+  margin: 15px;
+}
+
+mark { 
+  background-color: #9999ff;
+  color: black;
+}
+
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #000099;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+
+.topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="Vise.html">Ce sunt visele?</a></li>
+  <li><a href="Vis_lucid.html">Visele lucide</a></li>
+  <li><a href="#simboluri">Simboluri frecvente in vise</a></li>
+  <li><a href="Galerie.html">Album foto</a></li>
+  <li><a class="active" href="Interpretare.html">Interpretare vise</a></li>
+  <li><a href="Formular.html">Formular vise</a></li>
+</ul>
+
+<div class="topnav">
+<input type="text" placeholder="Cauta..">
+</div>
+
+<div class="header">
+  <h2 style="color:White;">Interpretare vise</h2>
+</div>
+<div class="row">
+  <div class="column side" style="background-color:#aaa;"></div>
+  <div class="column middle" style="background-color:#ff;">
+<div class="container">
+  <img src="bear.png" alt="Avatar" style="width:100%;">
+  <p>Acum 2 seri am visat ca am intarziat la intalnirea departamentului meu.</p>
+  <ul>
+  <br><li>Eram imbracat in verde, o culoare neobisnuita pentru mine </li></br>
+  <br><li>In vis apareau toti prietenii</li></br>
+  <br><li>Plangeam </li></br>
+</ul>  
+</div>
+
+<div class="container darker">
+  <img src="sleepy.jpg" alt="Avatar" class="right" style="width:100%;">
+  <p>Daca visezi ca intarzii la o intalnire profesionala sau personala sau daca realizezi ca nu mai ai timp sa predai o lucrare pentru care aveai un termen limita, e clar ca te framanta o chestiune importanta. Cadrul si subiectul visului sunt foarte importante. Daca visul are legatura cu viata profesionala, atunci in acel domeniu exista unele dificultati pe care subconstientul tau incearca sa le rezolve in vis.
+
+E timpul sa iti prioritizezi mai bine sarcinile, sa iti organizezi mai bine timpul si sa fii pro activ. O idee ar fi sa scrii toate obiectivele tale, sa le impartasesti cu ceilalti si sa bifezi apoi fiecare progres, oricat de mic ar fi el.</p>
+</div>
+<br></br>
+<div class="container">
+  <img src="bear.png" alt="Avatar" style="width:100%;">
+  <p>Ce semnifica caderea in gol?</p>
+</div>
+<div class="container darker">
+  <img src="sleepy.jpg" alt="Avatar" class="right" style="width:100%;">
+  <p>Caderea in gol e infricosatoare chiar si in vis, iar expertul Ian Wallace spune ca exista doua tipuri de astfel de vise. Unul, exact atunci cand adormi, cand muschii ti se relaxeaza complet, iar altul, mai dramatic, in timpul somnului profund. Ambele, insa, reflecta tensiunea acumulata si constientizarea faptului ca nu ai control asupra unei situatii.
+
+Incearca sa te relaxezi si sa nu iti alimentezi anxietatea..</p>
+</div>
+ <div class="column side" style="background-color:#ccc;"></div>
+</div>
+<div class="footer">
+  <p>Footer</p>
+</div>
+
+</body>
+</html>

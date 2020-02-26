@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="extern.css">
+<title>VIS LUCID</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-image: url("luni3.jpg");
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-family: Charter BT;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+
+.column.side {
+  width: 20%;
+  background-image: url("stele2.jpg");
+}
+
+.column.middle {
+  width: 60%;
+  background-image: url("munte.png");
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  background-image: url("stele2.jpg");
+}
+
+p.ex1 {
+  margin: 15px;
+}
+
+mark { 
+  background-color: #9999ff;
+  color: black;
+}
+
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #000099;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="Vise.html">Ce sunt visele?</a></li>
+  <li><a class="active" href="Vis_lucid.html">Visele lucide</a></li>
+  <li><a href="#simboluri">Simboluri frecvente in vise</a></li>
+  <li><a href="Galerie.html">Album foto</a></li>
+  <li><a href="Interpretare.html">Interpretare vise</a></li>
+  <li><a href="Formular.html">Formular vise</a></li>
+</ul>
+
+<div class="header">
+  <h2 style="color:White;">Vise lucide</h2>
+</div>
+
+<div class="row">
+  <div class="column side" style="background-color:#aaa;"></div>
+  <div class="column middle" style="background-color:#ff;">
+  <p class="ex1"> Vis lucid este un termen ce desemneaza un vis in care persoana care viseaza este constienta ca viseza si ca visul este in curs de desfasurare. In timpul viselor lucide, exista posibilitatea de a exercita control constient efectiv asupra mediului, personajelor si tuturor caracteristicilor acestora, precum si realizarea unor lucruri care sunt imposibile sau foarte putin probabile in realitatea fizica a starii de veghe. </p> 
+  <p class="ex1"> Visele lucide sunt cel mai adesea extrem de realiste prezentand si o ascutire a acuratetei simturilor celui ce are visul lucid. </p>
+  <p class="ex1"> Visurile lucide incep intr-unul din urmatoarele moduri. Unul este asa numitul vis lucid initiat in vis (conform notiunii din engleza, dream-initiated lucid dream, abreviere, DILD), care este initiat ca un vis obisnuit, dupa care, la un moment dat cel ce viseaza realizeaza ca viseaza. Celalat mod este numit vis lucid initiat in starea de veghe (conform notiunii din engleza, wake-initiated lucid dream, abreviere, WILD), in care subiectul trece direct din starea de veghe in starea de vis fara nici o (aparenta) discontinuitate in constientizarea intregului proces.</p>
+  <p class="ex1"> Savanti precum Allan Hobson, conform abordarii sale neuropsihologice a viselor lucide, au ajutat substantial la plasarea explicatiei acestor vise pe un teren mai solid si mai putin speculativ.  </p>
+  </div>
+  <div class="column side" style="background-color:#ccc;"></div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+
+</body>
+</html>

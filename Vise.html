@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CE SUNT VISELE</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+   background-image: url("stele2.jpg"); 
+}
+
+/* Style the header */
+.header {
+  background-image: url("luni3.jpg");
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-family: Charter BT;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 500px; 
+}
+
+.column.side {
+  width: 20%;
+  background-image: url("stele2.jpg");
+}
+
+.column.middle {
+  width: 60%;
+  background-image: url("munte.png");
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  background-image: url("stele2.jpg");
+}
+
+p.ex1 {
+  margin: 15px;
+}
+
+mark { 
+  background-color: #9999ff;
+  color: black;
+}
+
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #000099;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+
+.topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="Vise.html">Ce sunt visele?</a></li>
+  <li><a href="Vis_lucid.html">Visele lucide</a></li>
+  <li><a href="#simboluri">Simboluri frecvente in vise</a></li>
+  <li><a href="Galerie.html">Album foto</a></li>
+  <li><a href="Interpretare.html">Interpretare vise</a></li>
+  <li><a href="Formular.html">Formular vise</a></li>
+</ul>
+
+<div class="topnav">
+<input type="text" placeholder="Cauta..">
+</div>
+
+<div class="header">
+  <h2 style="color:White;">Vise</h2>
+</div>
+
+<div class="row">
+  <div class="column side" style="background-color:#aaa;"></div>
+  <div class="column middle" style="background-color:#ff;">
+  <p class="ex1"> Visul este o forma de imaginatie involuntara cu continut de material inconstient si exprienta subconstienta constand dintr-o succesiune de imagini, sunete, idei, emotii si alte senzatii care apar, de obicei, in timpul somnului, dar mai ales in cazul tipului de somn in care ochii se misca (somn paradoxal / REM - eng. "rapid eye movement"). Capacitatile cognitive, precum gandirea si memoria, sunt secundare, persoana care doarme percepand psihic si emotional evenimentele petrecute in vis ca elemente reale petrecute aievea. </p>
+  <p class="ex1"> Exista o ramura a psihologiei care se ocupa cu studiul interpretarii viselor petrecute in timpul somnului. S-a observat faptul ca in medie, o fiinta umana petrece aproximativ 6 ani din viata visand (ceea ce corespunde unei medii de 2 ore pe noapte). Inca nu s-a aflat care portiune a creierului genereaza visele, daca exista o singura regiune din creier care le genereaza, daca sunt implicate mai multe sau care este cu adevarat scopul viselor. </p> 
+  <p class="ex1"> In timpul somnului REM (paradoxal), eliberarea anumitor neurotransmitatori este complet suprimata. Drept rezultat, neuronii motorii nu sunt stimulati, conditie cunoscuta sub denumirea de relaxare nervoasa. Aceasta relaxare suprima astfel miscarile necontrolate ale corpului in timpul somnului si apare, adesea in cazul cosmarurilor, senzatia de paralizie, neputinta. </p>
+  
+  </div>
+  <div class="column side" style="background-color:#ccc;"></div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+
+</body>
+</html>

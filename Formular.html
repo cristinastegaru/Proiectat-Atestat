@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css" href="extern.css">
+<title>FORMULAR VISE</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+/* Style the header */
+.header {
+  background-image: url("luni3.jpg");
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-family: Charter BT;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+
+.column.side {
+  width: 20%;
+  background-image: url("stele2.jpg");
+}
+
+.column.middle {
+  width: 60%;
+  background-image: url("stele2.jpg");
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  background-image: url("stele2.jpg");
+}
+
+.form {
+  text-align: center;
+  color: white;
+}
+  
+
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #000099;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="Vise.html">Ce sunt visele?</a></li>
+  <li><a href="Vis_lucid.html">Visele lucide</a></li>
+  <li><a href="#simboluri">Simboluri frecvente in vise</a></li>
+  <li><a href="Galerie.html">Album foto</a></li>
+  <li><a href="Interpretare.html">Interpretare vise</a></li>
+  <li><a class="active" href="#formular">Formular vise</a></li>
+</ul>
+
+<div class="header">
+  <h2 style="color:White;">Formular</h2>
+</div>
+
+<div class="row">
+  <div class="column side" style="background-color:#aaa;"></div>
+  <div class="column middle" style="background-color:#ff;">
+  <div class="form">
+  <form action="/action_page.php">
+  Nume:<br>
+  <input type="text" name="Nume">
+  <br>
+  Prenume:<br>
+  <input type="text" name="Prenume"><br>
+  Adresa de mail:<br>
+  <input type="text" name="Adresa de mail"><br>
+  <br>
+  <input type="radio" name="gender" value="Barbat" checked>Barbat<br>
+  <input type="radio" name="gender" value="Femeie"> Femeie<br>
+  <p> Putem publica pe site-ul nostru analiza visului dumneavoastra la sectiunea "Interpretare vise"? </p>
+  <input type="radio" name="yes" value="Da" checked>Da<br>
+  <input type="radio" name="no" value="Nu">Nu<br>
+  <br>
+  <p> Descrie-ti visul in cat mai multe cuvinte. Include informatii despre culori, animale si persoanele </p>
+  <p> vazute. O descriere detaliata aduce de la sine o interpretare mai adanca a subconstientului. </p>
+  <textarea name="message" style="width:600px; height:400px;"></textarea>
+  <br>
+  <br>
+  <input type="submit" value="Trimite">
+  <br>
+  <br>
+</form>
+  </div>
+  </div>
+  <div class="column side" style="background-color:#ccc;"></div>
+</div>
+
+</body>
+</html>
